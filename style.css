@@ -785,9 +785,9 @@ background-position: center center;}
 .b2-box,.b1-box{
     padding: 20px;
 left: 16px;
-top: 137px;
+top: 127px;
 width: 85.5vw;
-height: 98vh;
+max-height: 360px;
 
 }
  
@@ -800,7 +800,7 @@ height: 98vh;
 width: 95vw;
 
 }
-.Newsletter-form input{padding: 16px 90px 16px 20px;}
+.Newsletter-form input{padding: 16px 80px 16px 20px;}
 .video-img{
  
 width: 95vw;
