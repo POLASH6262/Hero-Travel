@@ -1,0 +1,392 @@
+/* font-family */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+/* font-family: "Mulish", sans-serif;
+font-family: "Inter", sans-serif; */
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+ html{scroll-behavior: smooth;}
+
+
+
+
+
+header{margin: 53px 127px 50px 135px;}
+
+.brand-title{
+
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+   
+
+}
+.next{
+    color:  #424247; 
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+ 
+
+
+
+
+}
+nav span{
+    color: #FF5400;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    justify-content: space-between;
+    
+}
+.branding{display: flex;
+align-items: center;
+gap: 17px;}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    gap: 44px;
+
+}
+
+.nav-bar li{
+    list-style: none;
+}
+
+main{margin: 53px 127px 50px 135px;}
+.Explore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+   background-size: cover;
+   background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.Explore-title{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+
+}
+.Explore-info{
+    max-width:676px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-bottom: 48px;
+
+
+}
+.selection{
+display: flex;
+text-align: center;
+justify-content: center;
+   
+    padding: 16px;
+   
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+
+}
+
+.selection input{
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+
+
+
+
+}
+#s1{
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem 9rem 1rem 1rem;
+
+}
+#s2{
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem 6.5rem 1rem 1rem;
+
+}
+
+.btn{
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    padding:1.1rem 5.6rem 1.1rem 3.9rem;
+    border: none;
+}
+
+.Tours{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.3rem;
+    margin-top: 6.25rem;
+}
+     
+.Tours h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    }
+.Tours p{color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem; 
+    margin-top: 1.5rem;}
+.p1{margin-bottom: .5rem;}
+
+.Tours li{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem; 
+ margin-top: 1rem;
+
+
+}
+#kahini{margin-left:25px;}
+.Tours-info button{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    padding: 0.87rem 2.19rem;
+    margin-top: 2.87rem;
+    border: none;
+
+
+}
+.Tours img{
+
+    border-radius: 1rem;
+     
+}
+
+
+.grid h3{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    margin-top: 6.25rem;
+}
+.grid p{
+ 
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem; 
+    margin-bottom: 3rem;
+}
+
+
+
+#yeamin{
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 1rem;
+     color: #FFF;
+     font-family: Mulish;
+     font-size: 1.75rem;
+     font-weight: 800;
+     border: 3px solid red;
+}
+
+.grid-box{
+display: grid;
+grid-template-columns: repeat(12,1fr);
+grid-template-rows: repeat(3,17.875rem);
+gap: 1.5rem;
+
+
+}
+.polash1{
+  grid-column: 1/7;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 5.png) lightgray 50% / cover no-repeat;
+}
+.polash2{
+    grid-column: 7/13;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 8.png) lightgray 50% / cover no-repeat;
+}
+.polash3{
+    grid-column: 1/5;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 6.png) lightgray 50% / cover no-repeat;
+}
+.polash4{
+    grid-column: 5/10;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 7.png) lightgray 50% / cover no-repeat;
+}
+.polash5{
+    grid-column: 10/13;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 9.png) lightgray 50% / cover no-repeat;
+}
+.polash6{
+    grid-column: 1/6;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 11.png) lightgray 50% / cover no-repeat;
+}
+.polash7{
+    grid-column: 6/13;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 10.png) lightgray 50% / cover no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (min-width:601px) and (max-width:1600px){
+     
+ #menu-icon{
+    display: none;
+ }
+    
+}
+ 
+@media screen  and (max-width:600px){
+    nav{width: 95vw;}
+
+    main{
+       margin: 17px;
+    }
+    .nav-bar{
+       display: none;
+
+    }
+
+    header{margin: 17px;}
+
+    .selection{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;}
+    .Explore-title{
+        text-align: center;
+       
+        margin-top:1.3rem;
+        margin-bottom: 10px;
+        font-size: 1.375rem;
+    }
+    .Explore-info{
+        font-size: 0.875rem;
+      max-width: 27rem;
+      margin-bottom: 30px;
+}
+
+.Tours{
+   flex-direction: column;
+gap: 1.5rem;
+}
+.grid-box{
+   
+    grid-template-columns: repeat(1,12fr);
+ 
+    gap: 0.98 rem;
+    
+    
+    }
+
+    .polash1{
+        grid-column: 1/13;}
+    .polash2{
+        grid-column: 1/13;}
+    .polash3{
+        grid-column: 1/13;}
+    .polash4{
+        grid-column: 1/13;
+     height: 17.875rem;}
+    .polash5{
+        grid-column: 1/13;
+        height: 17.875rem;
+    }
+    .polash6{
+        grid-column: 1/13;
+        height: 17.875rem;
+    }
+    .polash7{
+        grid-column: 1/13;
+        height: 17.875rem;
+    }
+}
