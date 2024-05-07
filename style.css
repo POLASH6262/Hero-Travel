@@ -604,7 +604,7 @@ border: none;
     background: rgba(19, 19, 24, 0.05);
     margin-top: 16px;
 display: block;
-padding: 16px 131px 16px 20px;
+padding: 16px 200px 16px 20px;
 }
 .Newsletter-form button{
     color: #FFF;
@@ -786,7 +786,7 @@ background-position: center center;}
     padding: 20px;
 left: 16px;
 top: 137px;
-width: 88.5vw;
+width: 85.5vw;
 height: 98vh;
 
 }
@@ -800,6 +800,7 @@ height: 98vh;
 width: 95vw;
 
 }
+.Newsletter-form input{padding: 16px 90px 16px 20px;}
 .video-img{
  
 width: 95vw;
